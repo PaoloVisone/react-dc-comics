@@ -13,6 +13,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 a {
   font-weight: 500;
   color: black;
@@ -21,12 +28,6 @@ a {
 
 a:hover {
   color: #4280f4;
-}
-
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 header {
