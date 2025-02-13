@@ -1,27 +1,19 @@
+// Importo il componetnte Logo
+import Logo from "./Logo.jsx";
+// Importo il componente Navbar
+import Navbar from "./Navbar.jsx";
+
 export default function Header() {
     return (<header>
 
         {/* Logo DC */}
         <div className="container flex">
-            <figure id="logo">
-                <img src="img/dc-logo.png" alt="logo" />
-            </figure>
+
+            <Logo />
 
             {/* Navbar */}
-            <nav>
-                <ul id="nav-menu">
-                    <li><a href="#">CHARACTERS</a></li>
-                    <li><a href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAME</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
-                </ul>
-            </nav>
+
+            <Navbar />
 
         </div>
 
