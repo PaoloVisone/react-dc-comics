@@ -1,9 +1,9 @@
 #root {
   margin: 0 auto;
-
   text-align: center;
 }
 
+/* Logo */
 #logo img {
   width: 80px;
   padding: 10px;
@@ -11,4 +11,8 @@
 
 #logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+#logo-bg {
+  width: 400px;
 }
