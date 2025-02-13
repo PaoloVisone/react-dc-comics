@@ -96,6 +96,12 @@ footer {
   background-image: url("assets/footer-bg.jpg");
 }
 
+/* Footer navbar */
+#foot-navbar {
+  background-color: #242424;
+  padding: 15px 0;
+}
+
 #content {
   display: flex;
 }
@@ -104,10 +110,22 @@ footer {
   display: flex;
 }
 
-/* Footer logo */
 .big {
   color: white;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+/* Button */
+#content-btn {
+  padding: 10px;
+}
+
+#btn {
+  border: 2px solid #4280f4;
+  background-color: transparent;
+  padding: 20px;
+  font-weight: 700;
 }
 
 /* Icon */
@@ -122,10 +140,6 @@ footer {
 #foot-text {
   color: #4280f4;
   font-weight: 700;
-}
-
-/* Footer navbare */
-#foot-navbar {
-  background-color: #242424;
-  padding: 20px 0;
+  font-size: 18px;
+  padding: 20px;
 }
