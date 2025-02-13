@@ -13,14 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* General */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 a {
+  font-size: 12px;
   font-weight: 500;
   color: black;
   text-decoration: none;
@@ -30,6 +31,32 @@ a:hover {
   color: #4280f4;
 }
 
+p {
+  font-size: 12px;
+}
+
+ul {
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+/* Container */
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header */
 header {
   display: flex;
   justify-content: space-around;
@@ -37,7 +64,68 @@ header {
   background-color: white;
 }
 
-ul li {
+#nav-menu li {
   display: inline;
   padding: 10px;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4280f4;
+}
+
+/* Card */
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+}
+
+.main-img {
+  width: 40px;
+}
+
+/* Footer */
+/* Background img */
+footer {
+  background-image: url("assets/footer-bg.jpg");
+}
+
+#content {
+  display: flex;
+}
+
+#content-list {
+  display: flex;
+}
+
+/* Footer logo */
+.big {
+  color: white;
+  font-size: 14px;
+}
+
+/* Icon */
+#icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Text Follow */
+#foot-text {
+  color: #4280f4;
+  font-weight: 700;
+}
+
+/* Footer navbare */
+#foot-navbar {
+  background-color: #242424;
+  padding: 20px 0;
 }
