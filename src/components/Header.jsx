@@ -1,10 +1,13 @@
 export default function Header() {
     return (<header>
+
+        {/* Logo DC */}
         <div className="container flex">
             <figure id="logo">
                 <img src="img/dc-logo.png" alt="logo" />
             </figure>
 
+            {/* Navbar */}
             <nav>
                 <ul id="nav-menu">
                     <li><a href="#">CHARACTERS</a></li>
@@ -19,6 +22,8 @@ export default function Header() {
                     <li><a href="#">SHOP</a></li>
                 </ul>
             </nav>
+
         </div>
+
     </header>);
 }
