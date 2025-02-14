@@ -1,10 +1,10 @@
 // Importo il componetnte Logo
-import Card from "./Card.jsx";
+import IconCard from "./IconCard.jsx";
 
 export default function Main() {
     return (<main>
 
-        <Card />
+        <IconCard />
 
     </main>);
 }
