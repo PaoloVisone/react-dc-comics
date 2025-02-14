@@ -77,8 +77,8 @@ main {
   background-color: #0c7cec;
 }
 
-/* Card */
-.card {
+/* IconCard */
+.iconCard {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,4 +142,13 @@ footer {
   font-weight: 700;
   font-size: 18px;
   padding: 20px;
+}
+
+/* Hero */
+
+#hero {
+  background-image: url("assets/jumbotron.jpg");
+  background-size: cover;
+  height: 20vw;
+
 }
