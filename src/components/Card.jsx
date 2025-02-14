@@ -12,9 +12,17 @@ export default function Card() {
             {comics.map((comic) => (
 
                 <div className="card">
+                    <div className="img">
 
-                    <img key={comic.id} src={comic.thumb} alt={comic.series} />
-                    <p className="text-img">{comic.series}</p>
+                        <img key={comic.id} src={comic.thumb} alt={comic.series} />
+
+                    </div>
+
+                    <div className="text-img">
+
+                        <p>{comic.series}</p>
+
+                    </div>
 
                 </div >
 

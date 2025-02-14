@@ -152,3 +152,32 @@ footer {
   height: 20vw;
 
 }
+
+/* Card */
+
+.card {
+  width: calc(100%/6 - 10px);
+  height: 200px;
+  margin: 20px 0;
+}
+
+.img {
+  width: 100%;
+  height: 80%;
+}
+
+
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-img {
+  font-weight: 700;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  gap: 10px;
+}
