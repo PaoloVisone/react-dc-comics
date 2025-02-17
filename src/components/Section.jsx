@@ -5,8 +5,11 @@ import Card from "./Card";
 export default function Section() {
     return (<section>
 
-        <Card />
+        {/* Label */}
+        <span id="label">CURRENT SERIES</span>
 
+        {/* Card */}
+        <Card />
 
         {/* Button */}
         <div className="content-btn dir-ctr">
@@ -14,8 +17,6 @@ export default function Section() {
             <button className="btn blu">LOAD MORE</button>
 
         </div>
-
-
 
     </section>);
 }
