@@ -78,9 +78,9 @@ export default function Footer() {
             <div className="container flex">
 
                 {/* Button */}
-                <div id="content-btn">
+                <div className="content-btn">
 
-                    <button id="btn">SIGN-UP NOW</button>
+                    <button className="btn">SIGN-UP NOW</button>
 
                 </div>
 
