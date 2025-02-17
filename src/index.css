@@ -31,6 +31,16 @@ a:hover {
   color: #0c7cec;
 }
 
+.foot-list a {
+  color: gray;
+}
+
+.foot-list .big {
+  color: white;
+  font-size: 18px;
+  line-height: 50px;
+}
+
 p {
   font-size: 12px;
 }
@@ -75,6 +85,8 @@ main {
   justify-content: space-around;
   align-items: center;
   background-color: #0c7cec;
+  position: relative;
+  z-index: 6;
 }
 
 /* IconCard */
@@ -94,6 +106,8 @@ main {
 /* Background img */
 footer {
   background-image: url("assets/footer-bg.jpg");
+  position: relative;
+  z-index: 5;
 }
 
 /* Footer navbar */
@@ -108,12 +122,6 @@ footer {
 
 #content-list {
   display: flex;
-}
-
-.big {
-  color: white;
-  font-size: 18px;
-  line-height: 50px;
 }
 
 /* Button */
@@ -160,13 +168,23 @@ footer {
   background-image: url("assets/jumbotron.jpg");
   background-size: cover;
   height: 20vw;
-
 }
+
+
 
 /* Section */
 
 section {
   margin-top: 20px;
+}
+
+/* Label */
+#label {
+  position: relative;
+  left: 140px;
+  bottom: 33px;
+  background-color: #0c7cec;
+  padding: 10px;
 }
 
 /* Card */
