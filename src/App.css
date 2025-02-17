@@ -13,5 +13,9 @@
 }
 
 #logo-bg {
-  width: 400px;
+  width: 500px;
+  position: absolute;
+  top: -60px;
+  right: 300px;
+  z-index: -2;
 }
