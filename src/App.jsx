@@ -10,7 +10,13 @@ import Footer from "./components/Footer.jsx";
 // Importo il componetnte Hero
 import Hero from "./components/Hero.jsx";
 
+// Importo il componetnte Section
+import Section from "./components/Section.jsx";
+
+// I
+
 import './App.css'
+
 
 
 function App() {
@@ -18,6 +24,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Section />
       <Main />
       <Footer />
     </>
